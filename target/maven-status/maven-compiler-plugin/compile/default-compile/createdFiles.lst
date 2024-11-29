@@ -1,0 +1,7 @@
+com\upiiz\ExamenII\entities\ReviewEntity.class
+com\upiiz\ExamenII\config\OpenApiConfiguration.class
+com\upiiz\ExamenII\repositories\ReviewRepository.class
+com\upiiz\ExamenII\config\SecurityConfig.class
+com\upiiz\ExamenII\controllers\ReviewController.class
+com\upiiz\ExamenII\services\ReviewService.class
+com\upiiz\ExamenII\ExamenIiApplication.class
