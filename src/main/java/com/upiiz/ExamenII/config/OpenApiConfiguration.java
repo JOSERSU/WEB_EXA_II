@@ -30,7 +30,7 @@ import org.springframework.context.annotation.Configuration;
                 ),
                 @Server(
                         description = "Servidor de Produccion",
-                         url = "http://localhost:8080/api/v1/equipo"
+                         url = "https://web-exa-ii.onrender.com/api/v1/reviews"
                 )
         },
         tags = {
