@@ -35,8 +35,9 @@ public class SecurityConfig {
 
     @Bean
     public SecurityFilterChain securityFilterChain(HttpSecurity httpSecurity) throws Exception {
+
         return httpSecurity
-                .csrf().disable()// Desactiva CSRF
+                .cors().and().csrf().disable()
                 .httpBasic(Customizer.withDefaults())
                 .sessionManagement(session -> session.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
                 .authorizeHttpRequests(http->{
@@ -46,6 +47,7 @@ public class SecurityConfig {
                     http.requestMatchers(HttpMethod.POST, "/api/v1/reviews").hasAnyAuthority("CREATE");
                     http.requestMatchers(HttpMethod.PUT, "/api/v1/reviews/{id}").hasAnyAuthority("UPDATE");
                     http.requestMatchers(HttpMethod.DELETE, "/api/v1/reviews/{id}").hasAnyAuthority("DELETE");
+                    http.requestMatchers(HttpMethod.POST, "/api/v1/reviews/login").hasAnyAuthority("READ");
                     http.anyRequest().authenticated();
                 })
                 .build();

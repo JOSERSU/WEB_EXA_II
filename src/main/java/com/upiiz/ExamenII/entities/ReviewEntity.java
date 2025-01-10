@@ -34,4 +34,7 @@ public class ReviewEntity {
     @Column(name = "review_date")
     private LocalDateTime review_date;
 
+    @Column(name = "usr")
+    private String user;
+
 }

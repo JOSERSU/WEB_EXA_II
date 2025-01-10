@@ -13,6 +13,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/api/v1/reviews")
+@CrossOrigin(origins = "http://localhost:4200")
 @Tag(
         name = "Reviews"
 )

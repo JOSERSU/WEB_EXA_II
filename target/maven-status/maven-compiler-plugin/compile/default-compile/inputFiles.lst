@@ -1,7 +1,9 @@
-C:\Users\José Uribe\OneDrive\Escritorio\ExamenII\ExamenII\src\main\java\com\upiiz\ExamenII\config\OpenApiConfiguration.java
-C:\Users\José Uribe\OneDrive\Escritorio\ExamenII\ExamenII\src\main\java\com\upiiz\ExamenII\config\SecurityConfig.java
-C:\Users\José Uribe\OneDrive\Escritorio\ExamenII\ExamenII\src\main\java\com\upiiz\ExamenII\controllers\ReviewController.java
-C:\Users\José Uribe\OneDrive\Escritorio\ExamenII\ExamenII\src\main\java\com\upiiz\ExamenII\entities\ReviewEntity.java
-C:\Users\José Uribe\OneDrive\Escritorio\ExamenII\ExamenII\src\main\java\com\upiiz\ExamenII\ExamenIiApplication.java
-C:\Users\José Uribe\OneDrive\Escritorio\ExamenII\ExamenII\src\main\java\com\upiiz\ExamenII\repositories\ReviewRepository.java
-C:\Users\José Uribe\OneDrive\Escritorio\ExamenII\ExamenII\src\main\java\com\upiiz\ExamenII\services\ReviewService.java
+D:\ESCRITORIO\ExamenII\ExamenII\src\main\java\com\upiiz\ExamenII\config\OpenApiConfiguration.java
+D:\ESCRITORIO\ExamenII\ExamenII\src\main\java\com\upiiz\ExamenII\config\SecurityConfig.java
+D:\ESCRITORIO\ExamenII\ExamenII\src\main\java\com\upiiz\ExamenII\config\WebConfig.java
+D:\ESCRITORIO\ExamenII\ExamenII\src\main\java\com\upiiz\ExamenII\controllers\LoginController.java
+D:\ESCRITORIO\ExamenII\ExamenII\src\main\java\com\upiiz\ExamenII\controllers\ReviewController.java
+D:\ESCRITORIO\ExamenII\ExamenII\src\main\java\com\upiiz\ExamenII\entities\ReviewEntity.java
+D:\ESCRITORIO\ExamenII\ExamenII\src\main\java\com\upiiz\ExamenII\ExamenIiApplication.java
+D:\ESCRITORIO\ExamenII\ExamenII\src\main\java\com\upiiz\ExamenII\repositories\ReviewRepository.java
+D:\ESCRITORIO\ExamenII\ExamenII\src\main\java\com\upiiz\ExamenII\services\ReviewService.java
